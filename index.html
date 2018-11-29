@@ -35,9 +35,6 @@
           <a class="js-scroll-trigger" href="#page-top">SIRAHD</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Inicio</a>
-        </li>
-        <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#about">Introducción</a>
         </li>
         <li class="sidebar-nav-item">
@@ -46,6 +43,9 @@
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#portfolio">Características</a>
         </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#video">Video</a>
+        </li>  
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#contact">Acerca</a>
         </li>
@@ -57,7 +57,7 @@
       <div class="container text-center my-auto text-light">
         <h1 class="mb-1">Sistema de información y Registro de Asistencia por Huella Digital</h1>
         <h3 class="mb-5">
-          <em>SIRAHD</em>
+          <em>SIRAHD</em>            
         </h3>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Mas información</a>
       </div>
@@ -86,11 +86,11 @@ Para su desarrollo, se utilizará como lenguaje de programación C#, como base d
 
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <section class="content-section bg-primary text-white text-center" >
       <div class="container">
         <div class="content-section-heading">
           
-          <h2 class="mb-5">Descripción</h2>
+          <h2 class="mb-5" id="services" >Descripción</h2>
         </div>
         <h3 class="text-secondary mb-0 text-justify">SIRAHD es un sistema de información, que permite el registro de la plantilla de los profesores a la base de datos realizada en SQL Server Express 2017, el control de las asistencias de los profesores mediante la huella digital con parámetros variables de asistencia y retardo, visualizaciones de gráficas para el análisis de consultas específicas; tales como el número de inasistencias por día, reportes por rango de fecha en PDF y en Excel, con el uso de cuentas administrador y usuario para su uso.
 
@@ -148,9 +148,17 @@ Se realiza una actualización en el administrador de base de datos a una versió
     <!-- Call to Action -->
     <section class="content-section bg-primary text-white">
       <div class="container text-center">
-        <h2 class="mb-4">Áreas UASLP</h2>
-        <a href="http://www.ingenieria.uaslp.mx/" class="btn btn-xl btn-dark">UASLP</a>
-        <a href="http://dfm.uaslp.mx/dfm/public/" class="btn btn-xl btn-dark">DFM</a>
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5" id="video" >Video</h2>
+        </div>
+          <br><br>
+            <video width="800" controls>
+            <source src="recursos\tomaASISTENCIAS.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+            <br>
+        <!--<a href="http://www.ingenieria.uaslp.mx/" class="btn btn-xl btn-dark">UASLP</a>
+        <a href="http://dfm.uaslp.mx/dfm/public/" class="btn btn-xl btn-dark">DFM</a>-->
       </div>
     </section>
 
